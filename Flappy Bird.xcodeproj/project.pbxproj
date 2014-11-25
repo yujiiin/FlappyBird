@@ -21,6 +21,10 @@
 		211D802918EA7E3F0012497F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211D800B18EA7E3F0012497F /* UIKit.framework */; };
 		211D803118EA7E3F0012497F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 211D802F18EA7E3F0012497F /* InfoPlist.strings */; };
 		211D803318EA7E3F0012497F /* Flappy_BirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 211D803218EA7E3F0012497F /* Flappy_BirdTests.m */; };
+		211D804018EA7F3D0012497F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 211D803C18EA7F3D0012497F /* background.png */; };
+		211D804118EA7F3D0012497F /* birdDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 211D803D18EA7F3D0012497F /* birdDown.png */; };
+		211D804218EA7F3D0012497F /* birdUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 211D803E18EA7F3D0012497F /* birdUp.png */; };
+		211D804318EA7F3D0012497F /* tunnel.png in Resources */ = {isa = PBXBuildFile; fileRef = 211D803F18EA7F3D0012497F /* tunnel.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		211D802E18EA7E3F0012497F /* Flappy BirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flappy BirdTests-Info.plist"; sourceTree = "<group>"; };
 		211D803018EA7E3F0012497F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		211D803218EA7E3F0012497F /* Flappy_BirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flappy_BirdTests.m; sourceTree = "<group>"; };
+		211D803C18EA7F3D0012497F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		211D803D18EA7F3D0012497F /* birdDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birdDown.png; sourceTree = "<group>"; };
+		211D803E18EA7F3D0012497F /* birdUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birdUp.png; sourceTree = "<group>"; };
+		211D803F18EA7F3D0012497F /* tunnel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tunnel.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,10 @@
 				211D801C18EA7E3F0012497F /* ViewController.h */,
 				211D801D18EA7E3F0012497F /* ViewController.m */,
 				211D801F18EA7E3F0012497F /* Images.xcassets */,
+				211D803C18EA7F3D0012497F /* background.png */,
+				211D803D18EA7F3D0012497F /* birdDown.png */,
+				211D803E18EA7F3D0012497F /* birdUp.png */,
+				211D803F18EA7F3D0012497F /* tunnel.png */,
 				211D800E18EA7E3F0012497F /* Supporting Files */,
 			);
 			path = "Flappy Bird";
@@ -229,8 +241,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				211D802018EA7E3F0012497F /* Images.xcassets in Resources */,
+				211D804118EA7F3D0012497F /* birdDown.png in Resources */,
+				211D804018EA7F3D0012497F /* background.png in Resources */,
 				211D801218EA7E3F0012497F /* InfoPlist.strings in Resources */,
 				211D801B18EA7E3F0012497F /* Main.storyboard in Resources */,
+				211D804318EA7F3D0012497F /* tunnel.png in Resources */,
+				211D804218EA7F3D0012497F /* birdUp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
